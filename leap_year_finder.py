@@ -1,6 +1,13 @@
 # Leap Year Finder in python
 # TODO Upgrade this using Tkinter GUI in future
 
+# Example of leap years from Google 2000, 2004, 2008, 2012,
+# 2016, 2020, 2024, 2028, 2032, 2036, 2040, 2044, 2096, 2104 etc
+# Over time, these extra 44+ minutes would also cause the seasons 
+# to drift in our calendar. For this reason, not every four years is a leap year. 
+# The rule is that if the year is divisible by 100 and not divisible by 400,
+# leap year is skipped.
+
 def leap_year():
     """
     This functions seeks to return a leap year after user input << integer(4).
@@ -16,6 +23,7 @@ def leap_year():
     -->otherwise, it's a leap year.
 
     :return: Year --> Integer
+    
     """
 
     year = int(input("Enter a year: "))
